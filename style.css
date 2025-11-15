@@ -1,0 +1,86 @@
+        body {
+            background-color: aliceblue;
+            font-family: sans-serif;
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .kalkulator {
+            width: 270px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 20px;
+
+        }
+
+        .kalkulator .tampilan {
+            width: 505px;
+            height: 50px;
+            background-color: white;
+            border-radius: 20px;
+            color: black;
+            text-align:right;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .namakamu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: -20px;
+            margin: 20px;
+            flex-direction: column;
+        }
+        .namakamu p {
+            font-weight: 700;
+            font-size: 20px;
+            color: blue;
+        }
+        .namakamu img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+            margin-right: 10px;
+            
+            
+        }
+
+
+
+
+        td button {
+            background-color: rgba(128, 128, 128, 0.644);
+            color: azure;
+            margin: 8px;
+            border-radius: 14px;
+            padding: 20px;
+            transition: 0.3s all ease-in-out ;
+
+        }
+
+        td .sama-dengan {
+            background-color: orangered;
+            color: aliceblue;
+        }
+
+        td button:hover {
+            background-color: rgb(135, 207, 235);
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0 0 10px 20px skyblue;
+        }
